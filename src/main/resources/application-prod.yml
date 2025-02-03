@@ -1,0 +1,6 @@
+spring:
+  datasource:
+    url: ${RDS_URL}
+    driver-class-name: ${RDS_DRIVER}
+    username: ${RDS_USERNAME}
+    password: ${RDS_PASSWORD}
