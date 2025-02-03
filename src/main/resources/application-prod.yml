@@ -4,3 +4,5 @@ spring:
     driver-class-name: ${RDS_DRIVER}
     username: ${RDS_USERNAME}
     password: ${RDS_PASSWORD}
+  jpa:
+    database-platform: org.hibernate.dialect.MySQL8Dialect
